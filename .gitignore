@@ -1,0 +1,18 @@
+# Python virtual environments
+venv/
+env/
+.env
+__pycache__/
+.streamlit/
+
+# Ignore all large TIF files everywhere...
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+
+# ...EXCEPT the ones in our sample_data folder
+!sample_data/*.tif
+!sample_data/*.tiff
+!sample_data/*.TIF
+!sample_data/*.TIFF
